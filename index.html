@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario Mentoria</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="Title">
+        <h3>MENTORIA</h3>
+        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+      </div>
+      <div class="FullContent">
+        <form id="my-form" method="post">
+          <div class="formGroup">
+            <div id="Informações">
+              <p class="formTitles">Informações pessoais</p>
+              <div class="line"></div>
+              <div class="formIDENT">
+                <div class="formNAME">
+                  <label for="name">Nome</label>
+                  <input class="inputControll" type="text" id="name" />
+                </div>
+                <div class="SOBRENOME">
+                  <label for="sobrenome">Sobrenome</label>
+                  <input class="inputControll" type="text" />
+                </div>
+              </div>
+              <label style="margin-top: 8px" for="email"
+                >Email <span>&lpar;digite um email válido&rpar; </span></label
+              >
+              <input class="inputControll" type="email" id="email" />
+              <label style="margin-top: 8px" for="password"
+                >Senha <span>&lpar;minimo de 6 caracteres&rpar; </span></label
+              >
+              <input class="inputControll" type="password" id="password" />
+            </div>
+            <div id="infsMENTOR">
+              <p class="formTitles">Informações do mentor</p>
+              <div class="line"></div>
+              <label for="nameMENTOR"
+                >Nome do mentor<span
+                  >&lpar;Só o primeiro nome&rpar;
+                </span></label
+              >
+              <input class="inputControll" type="text" id="nameMENTOR" />
+            </div>
+            <div id="Horarios">
+              <p class="formTitles">Seus horários disponíveis</p>
+              <div class="line"></div>
+              <p class="formTitles">primeira mentoria</p>
+              <div class="dateControll">
+                <div class="date">
+                  <label for="date"
+                    >Data<span>&lpar;DD/MM/AA&rpar; </span></label
+                  >
+                  <input type="date" id="date" class="inputControll" />
+                </div>
+                <div class="hour">
+                  <div class="begin">
+                    <label for="in">Das</label>
+                    <input type="time" id="in" class="inputControll" />
+                  </div>
+                  <div class="end">
+                    <label for="Ot">Ate</label>
+                    <input type="time" id="Ot" class="inputControll" />
+                  </div>
+                </div>
+              </div>
+              <p class="formTitles">segunda mentoria</p>
+              <div class="dateControll">
+                <div class="date">
+                  <label for="date"
+                    >Data<span>&lpar;DD/MM/AA&rpar; </span></label
+                  >
+                  <input type="date" id="date" class="inputControll" />
+                </div>
+                <div class="hour">
+                  <div class="begin">
+                    <label for="in">Das</label>
+                    <input type="time" id="in" class="inputControll" />
+                  </div>
+                  <div class="end">
+                    <label for="Ot">Ate</label>
+                    <input type="time" id="Ot" class="inputControll" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="button">
+          <input type="submit" form="my-form" value="salvar" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

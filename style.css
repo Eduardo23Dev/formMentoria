@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+}
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 436px;
+  background-color: #535971;
+}
+.page {
+  width: 750px;
+  margin: 8.75rem auto 0;
+}
+.FullContent {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Title {
+  width: 417px;
+  margin-bottom: 58px;
+}
+.Title h3 {
+  font-family: "Staatliches", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  width: 163px;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+}
+.Title p {
+  font-family: "Poppins", sans-serif;
+  height: 46px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+form {
+  margin: auto;
+  background-color: white;
+  padding: 64px;
+  border-radius: 8px 8px 0 0;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#Informações,
+#infsMENTOR,
+#Horarios {
+  display: flex;
+  flex-direction: column;
+}
+#Horarios p {
+  margin-top: 16px;
+}
+.formGroup label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.formGroup label span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 9px;
+  line-height: 20px;
+  color: #c1bccc;
+}
+.formTitles {
+  font-family: "Staatliches", cursive;
+  font-size: 24px;
+  width: 400px;
+  color: #535971;
+  margin-bottom: 8px;
+}
+.line {
+  border-bottom: 1px solid #e6e6f0;
+  margin: 8px 0 36px;
+  width: 622px;
+}
+.formIDENT {
+  display: flex;
+  gap: 22px;
+}
+.formNAME,
+.SOBRENOME {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.inputControll {
+  margin: 8px 0 0;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.dateControll {
+  display: flex;
+  gap: 10px;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hour {
+  display: flex;
+  gap: 10px;
+}
+.begin,
+.end {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  background-color: #535971;
+  width: 100%;
+  display: flex;
+  height: 160px;
+  margin-bottom: 100px;
+  border-radius: 0 0 8px 8px;
+  gap: 10px;
+}
+.button input {
+  cursor: pointer;
+  margin: auto;
+  width: 608px;
+  height: 55px;
+  background: #ff5374;
+  border-radius: 20px;
+  padding: 15px 40px;
+  border: none;
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+}
+.button input:hover {
+  background: #ff6d8a;
+  transition: 0.3s;
+}
